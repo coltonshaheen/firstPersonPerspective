@@ -1,4 +1,116 @@
+/* Everything in doucment. */
+
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+
+p,
+a,
+li {
+    font-family: 'Open Sans', sans-serif;
+    color: #111;
+}
+
+/* Body */
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
 body {
     background-color: whitesmoke;
     text-align: center;
+    color: #111;
+}
+
+/* Side Nav */
+
+.sidenav {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 200px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    /* padding-top: 20px; */
+}
+
+.sidenav li {
+    margin: 50px auto;
+    display: block;
+}
+
+.sidenav li:not(:last-child):hover,
+.sidenav li:not(:last-child):active {
+    background-color: blueviolet;
+    color: #111;
+}
+
+.sidenav ul:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.sidenav a, .sidenav li {
+    color: whitesmoke;
+}
+
+.nav-list-not-link {
+    padding: 0 20px;
+}
+
+/* Main Section */
+
+.main {
+    margin-left: 200px;
+    padding: 0 150px 50px;
+}
+
+iframe {
+    margin: 30px auto;
+}
+
+#resources li {
+    padding-top: 20px;
+}
+
+#resources a {
+    font-size: 1.5em;
 }
