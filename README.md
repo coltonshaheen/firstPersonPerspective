@@ -4,4 +4,4 @@ We critique several sources pertaining to Autism Spectrum Disorder (ASD).
 
 Warner School of Education
 
-[https://coltonshaheen.github.io/firstPersonPerspective/]
+https://coltonshaheen.github.io/firstPersonPerspective/
