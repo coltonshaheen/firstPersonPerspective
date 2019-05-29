@@ -1,11 +1,5 @@
 /* Everything in doucment. */
 
-ul {
-    list-style-type: none;
-    margin-left: 0px;
-    padding-left: 0px;
-}
-
 h1,
 h2,
 h3,
@@ -24,7 +18,7 @@ li {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 a.anchor {
@@ -49,11 +43,11 @@ h2 {
 }
 
 h3 {
-    font-size: 1.7em;
+    font-size: 2em;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 body {
@@ -103,8 +97,15 @@ header {
     padding: 10px 20px;
 }
 
-.topnav a, .topnav li {
+.topnav a,
+.topnav li {
     color: whitesmoke;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 /* Main Section */
@@ -114,8 +115,19 @@ header {
 }
 
 .main {
-    padding: 0 150px;
+    padding: 0 300px;
     text-align: left;
+}
+
+.about {
+    margin: 50px auto;
+    padding-bottom: 20px;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+}
+
+.main p {
+    text-indent: 50px;
 }
 
 iframe {
@@ -124,17 +136,23 @@ iframe {
     display: block;
 }
 
+.statistics li {
+    font-size: 1.5em;
+}
+
+.references li {
+    font-size: 1.5em;
+}
+
 .resource-list {
     margin-bottom: 50px;
 }
 
 .resource-list li {
     padding-top: 20px;
+    font-size: 1.6em;
 }
 
-.resource-list a {
-    font-size: 1.3em;
-}
 
 /* footer */
 
@@ -144,11 +162,11 @@ footer {
     text-align: center;
 }
 
-footer p{
+footer p {
     color: whitesmoke;
     width: 100%;
     padding-top: 10px;
-    margin: 0;
+    margin: 100px 0 0;
     font-size: .8em;
     height: 30px;
 }

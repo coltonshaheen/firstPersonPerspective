@@ -24,7 +24,7 @@ li {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 a.anchor {
@@ -45,7 +45,15 @@ h1 {
 
 h2 {
     font-size: 1.6em;
-    margin-bottom: 75px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 2.4em;
+}
+
+h4 {
+    font-size: 1.8em;
 }
 
 body {
@@ -99,11 +107,52 @@ body {
 /* Main Section */
 
 .main {
-    padding: 0 150px;
+    padding: 0 300px;
+}
+
+.main p {
+    text-align: left;
+    text-indent: 25px;
 }
 
 iframe {
     margin: 30px auto;
+}
+
+.image-container {
+    margin: 50px 0;
+}
+
+.image-container img {
+    width: auto;
+    height: 300px;
+}
+
+.image-container img:hover {
+    transform: scale(2);
+    border: 1px solid whitesmoke;
+}
+
+.main ul {
+    font-size: 1.7em;
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 350px;
+}
+
+.main li {
+    padding: 10px 0;
+}
+
+.main {
+    margin-bottom: 150px;
+}
+
+blockquote {
+    padding: 10px 30px;
+    border: 2px solid #111;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
 }
 
 /* footer */
