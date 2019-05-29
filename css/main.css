@@ -52,16 +52,24 @@ h3 {
     font-size: 1.7em;
 }
 
+h4 {
+    font-size: 1.5em;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
-    text-align: center;
     color: #111;
 }
 
 /* Top Nav */
+header {
+    text-align: center;
+}
+
 .topnav {
+    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -107,10 +115,13 @@ body {
 
 .main {
     padding: 0 150px;
+    text-align: left;
 }
 
 iframe {
-    margin: 30px auto;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
 }
 
 .resource-list {
@@ -130,6 +141,7 @@ iframe {
 footer {
     background-color: #111;
     padding: 0;
+    text-align: center;
 }
 
 footer p{

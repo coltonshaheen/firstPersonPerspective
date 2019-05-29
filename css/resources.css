@@ -100,7 +100,10 @@ body {
 
 .main {
     padding: 0 150px;
-    margin-bottom: 1000px;
+}
+
+iframe {
+    margin: 30px auto;
 }
 
 /* footer */
